@@ -17,6 +17,7 @@ tile_size = 35
 #Load img
 bg_img = pygame.image.load('img/sky.png')
 sun_img = pygame.image.load('img/sun.png')
+        self.rect.x = x
 
 def draw_grid():
     for line in range(20):
